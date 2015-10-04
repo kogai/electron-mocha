@@ -1,3 +1,4 @@
+require('babel/register');
 require('./console')
 var ipc = require('ipc')
 var mocha = require('../mocha')
